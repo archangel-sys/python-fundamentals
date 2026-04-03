@@ -1,0 +1,5 @@
+print ("Write")
+file = open ("notes.txt", "w")
+file.write ("Day 013 - file handling\n")
+file.write ("This is saved permanently\n")
+file.close ()

@@ -1,3 +1,4 @@
+print("Finances")
 from datetime import datetime
 
 def save_record(entry):

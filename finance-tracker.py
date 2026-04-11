@@ -12,7 +12,6 @@ def show_records():
         file.close()
     except FileNotFoundError:
         print("no records yet")
-
 income=float(input("Enter Total Income: "))
 expenses=float(input("Enter Total Expenses: "))
 balance= income - expenses

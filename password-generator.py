@@ -11,4 +11,13 @@ def generate_password(length):
 
 def save_password(password):
     now=datetime.now()
-    date=
+    date=f"{now.year}-{now.month}-{now.day}"
+    file=open("password.txt", "a")
+    file.write(f"{date} | {password}\n")
+    file.close()
+
+length=int(input("Enter Password length: "))
+password=generate_password(length)
+print(f"Generated: {password}")
+save_password(password)
+print("Saved to password.txt")

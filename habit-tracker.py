@@ -1,3 +1,4 @@
 from datetime import datetime
 
-def log
+def log_habit(habit):
+    now=datetime.now()

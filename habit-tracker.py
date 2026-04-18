@@ -10,4 +10,14 @@ def log_habit(habit):
 
 def show_log():
     try:
-        file=open
+        file=open("habits.txt", "r")
+        content=file.read()
+        file.close()
+        print ("--- Habit Log ---")
+        print (content)
+    except FileNotFoundError:
+        print("No habits logged yet")
+
+habit=input("What did you complete today?")
+log_habit(habit)
+show_log()

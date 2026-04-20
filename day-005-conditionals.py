@@ -1,11 +1,11 @@
-age=int(input("enter your age: "))
+age=int(input("Enter your age: "))
 
 if age >= 18:
     print ("you are an adult.")
 else:
     print ("you are a minor.")
 
-grade=int(input("enter your grade: "))
+grade=int(input("Enter your grade: "))
 
 if grade >= 75:
     print ("you passed")
@@ -22,3 +22,5 @@ elif score >= 75:
     print ("C")
 else:
     print ("F")
+
+Uni=int(input("Enter your University: "))

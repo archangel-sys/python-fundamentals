@@ -1,2 +1,4 @@
 import random
-im
+from datetime import datetime
+
+def save

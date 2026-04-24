@@ -1,4 +1,5 @@
 import random
 from datetime import datetime
 
-def save
+def save_result(attempts):
+    

@@ -10,3 +10,5 @@ def save_result(attempts):
 
 target=random.randint(1, 100)
 attemps=0
+
+print()

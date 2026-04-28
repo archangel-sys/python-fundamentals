@@ -12,3 +12,7 @@ target=random.randint(1, 100)
 attemps=0
 
 print("Guess a number between 1 and 100")
+
+while true:
+    try:
+        

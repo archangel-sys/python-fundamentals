@@ -18,3 +18,6 @@ while true:
         guess=int(input("Your guess: "))
         attempt += 1
         if guess < target:
+            print ("Too high")
+        elif:
+            print

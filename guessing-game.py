@@ -16,3 +16,4 @@ print("Guess a number between 1 and 100")
 while true:
     try:
         guess=int(input("Your guess: "))
+        attempt += 1

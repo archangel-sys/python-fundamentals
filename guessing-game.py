@@ -21,3 +21,5 @@ while true:
             print ("Too Low")
         elif:
             print ("Too High")
+        else:
+            print ("")
